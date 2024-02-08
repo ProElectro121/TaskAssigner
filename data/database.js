@@ -6,7 +6,7 @@ export const connectDB = () => {
     }).then(() => {
         console.log('databse connected');
     })
-    .catch(() => {
-        console.log('error:');
+    .catch((error) => {
+        console.log('error:' , error);
     })
 }
