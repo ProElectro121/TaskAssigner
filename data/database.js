@@ -7,6 +7,6 @@ export const connectDB = () => {
         console.log('databse connected');
     })
     .catch(() => {
-        console.log('error: ' , error);
+        console.log('error:');
     })
 }
